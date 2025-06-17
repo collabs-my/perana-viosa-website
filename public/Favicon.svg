@@ -6,17 +6,15 @@
         fill: #ee3331;
       }
 
-      .cls-2 {
-        fill: #231f20;
-        letter-spacing: -.1em;
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
       }
 
-      .cls-3 {
-        font-family: Gilroy-Heavy, Gilroy;
-        font-size: 500px;
-        font-weight: 800;
+      .cls-2 {
+        fill: #231f20;
       }
     </style>
   </defs>
-  <text class="cls-3" transform="translate(92.27 466.01)"><tspan class="cls-2" x="0" y="0">P</tspan><tspan class="cls-1" x="247.5" y="0">.</tspan></text>
+  <path class="cls-2" d="m384.77,241.51c0,78-57,125.5-127.5,125.5h-40v99h-100V116.01h140c70.5,0,127.5,47.5,127.5,125.5Zm-100,0c0-18-12.5-28.5-27.5-28.5h-40v57h40c15,0,27.5-10.5,27.5-28.5Z"/>
+  <path class="cls-1" d="m357.26,416.01c0-32,25.5-57.5,57.5-57.5s57.5,25.5,57.5,57.5-25.5,57.5-57.5,57.5-57.5-25.5-57.5-57.5Z"/>
 </svg>
