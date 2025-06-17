@@ -16,7 +16,7 @@ export function FAQSection() {
       answer: "Traditional agencies often use junior staff and cookie-cutter approaches. We provide senior-level strategic leadership with a fractional CMO model, meaning you get C-level expertise at a fraction of the cost. Plus, our 90-day guarantee ensures you see results or we work for free."
     },
     {
-      question: "What if I&apos;m not ready for a full marketing overhaul?",
+      question: "What if I'm not ready for a full marketing overhaul?",
       answer: "That's perfectly fine! We offer three service levels to meet you where you are. Start with our Marketing Education & Training, move to Managed Marketing Services, or jump straight to Fractional CMO services. Every engagement begins with a free consultation to determine the best fit."
     },
     {

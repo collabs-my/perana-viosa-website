@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
+import BookFreeCallButton from "@/components/ui/book-free-call-button";
 import { Menu, X, ArrowRight } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
@@ -80,14 +81,7 @@ export function Header() {
             >
               Contact
             </Button>
-            <Link href="/book">
-              <Button
-                className="btn-red text-white shadow-lg hover:shadow-xl transition-all duration-300"
-              >
-                Book Free Call
-                <ArrowRight className="ml-2 w-4 h-4" />
-              </Button>
-            </Link>
+            <BookFreeCallButton />
           </div>
 
           {/* Mobile menu button */}
@@ -135,14 +129,7 @@ export function Header() {
                   >
                     Contact
                   </Button>
-                  <Link href="/book">
-                    <Button
-                      className="w-full btn-red text-white"
-                    >
-                      Book Free Call
-                      <ArrowRight className="ml-2 w-4 h-4" />
-                    </Button>
-                  </Link>
+                  <BookFreeCallButton className="w-full" />
                 </div>
               </nav>
             </div>

@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
+import BookFreeCallButton from "@/components/ui/book-free-call-button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 // import { Badge } from "@/components/ui/badge";
 import { CheckCircle, Users, Target, BookOpen, ArrowRight, Shield } from "lucide-react";
@@ -24,7 +25,7 @@ export function SolutionSection() {
     {
       icon: Target,
       title: "Managed Marketing Services",
-      description: "Complete marketing execution by experienced contractors who don&apos;t need training or management.",
+      description: "Complete marketing execution by experienced contractors who don't need training or management.",
       features: [
         "Campaign creation & management",
         "Content production",
@@ -37,7 +38,7 @@ export function SolutionSection() {
     {
       icon: BookOpen,
       title: "Marketing Education & Training",
-      description: "Cutting-edge training that evolves with the marketing landscape. Unlike any course you&apos;ve taken before.",
+      description: "Cutting-edge training that evolves with the marketing landscape. Unlike any course you've taken before.",
       features: [
         "Live interactive workshops",
         "Constantly updated curriculum",
@@ -142,13 +143,7 @@ export function SolutionSection() {
               If you don&apos;t see measurable improvement, we&apos;ll continue working for free until you do.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <Button
-                size="lg"
-                className="btn-red text-white px-8 py-4 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
-              >
-                Book Your Free Consultation
-                <ArrowRight className="ml-2 w-5 h-5" />
-              </Button>
+              <BookFreeCallButton />
               <p className="text-sm text-gray-500">
                 No commitment required • Free $500 marketing audit included
               </p>

@@ -14,14 +14,14 @@ export function ProblemSection() {
     {
       animation: burningCashAnimation,
       title: "Burning Cash on Failed Campaigns",
-      description: "You&apos;re spending $2K-10K monthly on marketing with poor ROI. Every failed campaign feels like money down the drain.",
+      description: "You're spending $2K-10K monthly on marketing with poor ROI. Every failed campaign feels like money down the drain.",
       stat: "$50K+",
       statLabel: "Average wasted annually"
     },
     {
       animation: chaoticMarketingAnimation,
       title: "Marketing Feels Chaotic & Reactive",
-      description: "Despite having budget, your marketing lacks strategy. You&apos;re constantly putting out fires instead of building systems.",
+      description: "Despite having budget, your marketing lacks strategy. You're constantly putting out fires instead of building systems.",
       stat: "73%",
       statLabel: "Of startups lack marketing strategy"
     },
@@ -119,7 +119,7 @@ export function ProblemSection() {
               </div>
               <p className="text-lg text-gray-700 max-w-3xl mx-auto">
                 <strong>Bottom line:</strong> The longer you wait to fix your marketing, the more expensive it becomes. 
-                Your competitors aren&apos;t waiting—and neither should you.
+                Your competitors aren't waiting—and neither should you.
               </p>
             </div>
           </motion.div>

@@ -1,6 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
+import BookFreeCallButton from "@/components/ui/book-free-call-button";
 import { Badge } from "@/components/ui/badge";
 import { ArrowRight, Star, Users, TrendingUp } from "lucide-react";
 import { motion } from "framer-motion";
@@ -98,15 +99,7 @@ export function HeroSection() {
             transition={{ duration: 0.8, delay: 0.8 }}
             className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12"
           >
-            <Link href="/book">
-              <Button
-                size="lg"
-                className="btn-modern btn-red text-white px-8 py-4 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 animate-pulse-glow"
-              >
-                Book Free Audit Call
-                <ArrowRight className="ml-2 w-5 h-5" />
-              </Button>
-            </Link>
+            <BookFreeCallButton />
             <Button
               variant="outline"
               size="lg"
