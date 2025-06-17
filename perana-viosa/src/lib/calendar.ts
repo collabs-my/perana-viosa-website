@@ -235,7 +235,7 @@ function generateConfirmationEmail(bookingData: BookingData): string {
 /**
  * Validates available time slots (placeholder for actual calendar checking)
  */
-export async function checkAvailability(date: string, time: string): Promise<boolean> {
+export async function checkAvailability(): Promise<boolean> {
   // This is where you would check against your actual calendar
   // For now, return true for all slots
   return true;

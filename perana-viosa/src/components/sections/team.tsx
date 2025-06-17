@@ -1,6 +1,7 @@
 "use client";
 
 import React from 'react';
+import Image from 'next/image';
 
 interface TeamMember {
   name: string;
@@ -28,10 +29,11 @@ const TeamCard = ({ member }: { member: TeamMember }) => {
       {/* Profile Picture */}
       <div className="absolute w-[calc(100%-6px)] h-[calc(100%-6px)] top-[3px] left-[3px] rounded-[29px] z-10 border-0 border-[#fbb9b6] overflow-hidden transition-all duration-500 ease-in-out delay-200 group-hover:w-[100px] group-hover:h-[100px] group-hover:aspect-square group-hover:top-[10px] group-hover:left-[10px] group-hover:rounded-full group-hover:z-30 group-hover:border-[7px] group-hover:border-[#fbb9b6] group-hover:shadow-[rgba(96,75,74,0.1882352941)_0px_5px_5px_0px] group-hover:delay-100">
         {member.image ? (
-          <img 
-            src={member.image} 
-            alt={member.name} 
-            className="object-cover w-full h-full transition-all duration-500 ease-in-out group-hover:scale-[2.5] group-hover:delay-500"
+          <Image
+            src={member.image}
+            alt={member.name}
+            fill
+            className="object-cover transition-all duration-500 ease-in-out group-hover:scale-[2.5] group-hover:delay-500"
           />
         ) : (
           <div className="w-full h-full bg-gradient-to-br from-[#fbb9b6] to-[#f55d56] flex items-center justify-center">

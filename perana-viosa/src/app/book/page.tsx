@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Badge } from "@/components/ui/badge";
+// import { Badge } from "@/components/ui/badge";
 import { ArrowLeft, Calendar, Clock, CheckCircle, User, Mail, Phone, Building, ExternalLink, Sparkles, Star, Zap } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
@@ -17,7 +17,7 @@ export default function BookingPage() {
   const [selectedTime, setSelectedTime] = useState<string>("");
   const [step, setStep] = useState<number>(1);
   const [isSubmitting, setIsSubmitting] = useState<boolean>(false);
-  const [calendarLink, setCalendarLink] = useState<string>("");
+  const [calendarLink] = useState<string>("");
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -81,7 +81,7 @@ export default function BookingPage() {
 
   const handleTimeSelect = (time: string) => {
     setSelectedTime(time);
-    // Don't auto-advance to next step - user will click Continue button
+    // Don&apos;t auto-advance to next step - user will click Continue button
   };
 
   const handleFormSubmit = async (e: React.FormEvent) => {
@@ -110,16 +110,16 @@ export default function BookingPage() {
     }
   };
 
-  const generateCalendarDates = () => {
-    const dates = [];
-    const today = new Date();
-    for (let i = 1; i <= 14; i++) {
-      const date = new Date(today);
-      date.setDate(today.getDate() + i);
-      dates.push(date);
-    }
-    return dates;
-  };
+  // const generateCalendarDates = () => {
+  //   const dates = [];
+  //   const today = new Date();
+  //   for (let i = 1; i <= 14; i++) {
+  //     const date = new Date(today);
+  //     date.setDate(today.getDate() + i);
+  //     dates.push(date);
+  //   }
+  //   return dates;
+  // };
 
   const generateCalendarGrid = () => {
     const today = new Date();
@@ -913,7 +913,7 @@ export default function BookingPage() {
                   </h1>
 
                   <p className="text-xl text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed">
-                    🎉 Thank you for booking with Perana Viosa! We've sent a confirmation email with all the details and a calendar invite. Get ready for an amazing consultation!
+                    🎉 Thank you for booking with Perana Viosa! We&apos;ve sent a confirmation email with all the details and a calendar invite. Get ready for an amazing consultation!
                   </p>
                 </motion.div>
 
@@ -929,7 +929,7 @@ export default function BookingPage() {
                       <div className="flex items-center justify-between text-white">
                         <div>
                           <h4 className="font-bold text-lg mb-2">Add to Google Calendar</h4>
-                          <p className="text-orange-100">Don't forget your appointment! Add it to your calendar now.</p>
+                          <p className="text-orange-100">Don&apos;t forget your appointment! Add it to your calendar now.</p>
                         </div>
                         <a
                           href={calendarLink}
@@ -953,7 +953,7 @@ export default function BookingPage() {
                   transition={{ duration: 0.6, delay: 0.8 }}
                   className="mb-12"
                 >
-                  <h3 className="text-3xl font-bold text-gray-900 mb-8 text-center">What's Next?</h3>
+                  <h3 className="text-3xl font-bold text-gray-900 mb-8 text-center">What&apos;s Next?</h3>
 
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                     {[

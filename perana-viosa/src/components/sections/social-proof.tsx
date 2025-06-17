@@ -17,7 +17,7 @@ export function SocialProofSection() {
     {
       name: "Mosima Phale",
       role: "Sima Speaks",
-      content: "Prenessa introduced me to new PR and Marketing elements, explaining each detail and how to apply it. Your ability to nurture and teach others conveys great leadership skills. You're a connection cultivator, together with your network.",
+      content: "Prenessa introduced me to new PR and Marketing elements, explaining each detail and how to apply it. Your ability to nurture and teach others conveys great leadership skills. You&apos;re a connection cultivator, together with your network.",
       rating: 5,
       image: "/Mosima Phale.jpg"
     },
@@ -78,10 +78,10 @@ export function SocialProofSection() {
               Proven Results & Happy Clients
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Don't just take our word for it
+              Don&apos;t just take our word for it
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              See how we've helped businesses like yours achieve remarkable growth and marketing success.
+              See how we&apos;ve helped businesses like yours achieve remarkable growth and marketing success.
             </p>
           </motion.div>
 

@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
+// import { Badge } from "@/components/ui/badge";
 import { CheckCircle, Users, Target, BookOpen, ArrowRight, Shield } from "lucide-react";
 
 export function SolutionSection() {
@@ -24,7 +24,7 @@ export function SolutionSection() {
     {
       icon: Target,
       title: "Managed Marketing Services",
-      description: "Complete marketing execution by experienced contractors who don't need training or management.",
+      description: "Complete marketing execution by experienced contractors who don&apos;t need training or management.",
       features: [
         "Campaign creation & management",
         "Content production",
@@ -37,7 +37,7 @@ export function SolutionSection() {
     {
       icon: BookOpen,
       title: "Marketing Education & Training",
-      description: "Cutting-edge training that evolves with the marketing landscape. Unlike any course you've taken before.",
+      description: "Cutting-edge training that evolves with the marketing landscape. Unlike any course you&apos;ve taken before.",
       features: [
         "Live interactive workshops",
         "Constantly updated curriculum",
@@ -138,8 +138,8 @@ export function SolutionSection() {
               90-Day Results Guarantee
             </h3>
             <p className="text-xl text-gray-600 mb-6 max-w-3xl mx-auto">
-              We're so confident in our approach that we guarantee results in 90 days. 
-              If you don't see measurable improvement, we'll continue working for free until you do.
+              We&apos;re so confident in our approach that we guarantee results in 90 days.
+              If you don&apos;t see measurable improvement, we&apos;ll continue working for free until you do.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Button

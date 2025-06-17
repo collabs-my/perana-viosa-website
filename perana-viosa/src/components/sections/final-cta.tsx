@@ -48,7 +48,7 @@ export function FinalCTASection() {
             className="text-xl md:text-2xl mb-8 opacity-90 leading-relaxed"
           >
             Join the 50+ businesses that have already transformed their marketing with Perana Viosa. 
-            Your competitors aren't waiting—and neither should you.
+            Your competitors aren&apos;t waiting—and neither should you.
           </motion.p>
 
           {/* Value props */}
