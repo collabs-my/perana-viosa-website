@@ -119,7 +119,7 @@ export function ProblemSection() {
               </div>
               <p className="text-lg text-gray-700 max-w-3xl mx-auto">
                 <strong>Bottom line:</strong> The longer you wait to fix your marketing, the more expensive it becomes. 
-                Your competitors aren't waiting—and neither should you.
+                Your competitors aren&apos;t waiting—and neither should you.
               </p>
             </div>
           </motion.div>

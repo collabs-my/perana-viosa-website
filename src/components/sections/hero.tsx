@@ -3,9 +3,8 @@
 import { Button } from "@/components/ui/button";
 import BookFreeCallButton from "@/components/ui/book-free-call-button";
 import { Badge } from "@/components/ui/badge";
-import { ArrowRight, Star, Users, TrendingUp } from "lucide-react";
+import { Star, Users, TrendingUp } from "lucide-react";
 import { motion } from "framer-motion";
-import Link from "next/link";
 import { useEffect } from "react";
 
 export function HeroSection() {

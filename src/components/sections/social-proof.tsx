@@ -7,7 +7,15 @@ import Image from "next/image";
 import styled from "styled-components";
 
 // Styled testimonial card component
-const TestimonialCard = ({ testimonial, index }: { testimonial: any; index: number }) => {
+interface Testimonial {
+  name: string;
+  role: string;
+  content: string;
+  rating: number;
+  image: string;
+}
+
+const TestimonialCard = ({ testimonial, index }: { testimonial: Testimonial; index: number }) => {
   return (
     <motion.div
       initial={{ opacity: 0, y: 30 }}
@@ -214,10 +222,10 @@ export function SocialProofSection() {
               Proven Results & Happy Clients
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              Don't just take our word for it
+              Don&apos;t just take our word for it
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              See how we've helped businesses like yours achieve remarkable growth and marketing success.
+              See how we&apos;ve helped businesses like yours achieve remarkable growth and marketing success.
             </p>
           </motion.div>
 

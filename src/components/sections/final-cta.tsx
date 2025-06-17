@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import BookFreeCallButton from "@/components/ui/book-free-call-button";
 import { Badge } from "@/components/ui/badge";
-import { ArrowRight, Clock, Gift, Shield, Users } from "lucide-react";
+import { Clock, Gift, Shield, Users } from "lucide-react";
 
 export function FinalCTASection() {
   return (
@@ -49,7 +49,7 @@ export function FinalCTASection() {
             className="text-xl md:text-2xl mb-8 opacity-90 leading-relaxed"
           >
             Join the 50+ businesses that have already transformed their marketing with Perana Viosa. 
-            Your competitors aren't waiting—and neither should you.
+            Your competitors aren&apos;t waiting—and neither should you.
           </motion.p>
 
           {/* Value props */}
