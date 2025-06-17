@@ -1,0 +1,6 @@
+{
+  "buildCommand": "cd perana-viosa && npm run build",
+  "outputDirectory": "perana-viosa/.next",
+  "installCommand": "cd perana-viosa && npm install",
+  "devCommand": "cd perana-viosa && npm run dev"
+}
